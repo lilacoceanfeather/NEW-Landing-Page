@@ -1,0 +1,50 @@
+body {
+	border:  2px solid red;
+}
+
+#navigation {
+	display:  flex;
+	margin:  0;
+	padding: 0;
+	border:  2px solid blue;
+	height:  100px;
+	justify-content: space-evenly;
+}
+
+#nav-logo-container  {
+	border:  2px solid purple;
+	width:  50%;
+}
+
+#menu-nav-container1, #menu-nav-container2, #menu-nav-container3 {
+	border:  2px solid pink;
+	width: 15%;
+}
+
+#main-section {
+	margin:  0;
+	padding:  0;
+	border:  2px solid brown;
+	height: 200px;
+}
+
+#main-section2 {
+	margin:  0;
+	padding:  0;
+	border: 2px solid orange;
+	height: 200px;
+}
+
+#main-section3 {
+	margin:  0;
+	padding: 0;
+	border:  2px solid green;
+	height: 200px;
+}
+
+#main-section4 {
+	margin:  0;
+	padding: 0;
+	border:  2px solid black;
+	height: 200px;
+}
