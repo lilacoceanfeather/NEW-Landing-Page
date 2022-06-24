@@ -1,11 +1,14 @@
 body {
 	border:  2px solid red;
 	font-family: 'Roboto', sans-serif;
+	margin:  0;
+	padding:  0;
 }
 
 #navigation {
+	position:  fixed;
 	display:  flex;
-	margin:  0 10px 0 0;
+	margin:  0;
 	padding: 0;
 	border:  2px solid blue;
 	width:  100%;
@@ -13,39 +16,111 @@ body {
 	justify-content: space-evenly;
 	background-color:  #1F2937;
 	color:  white;
+	z-index:  5;
 }
 
 #nav-logo-container  {
-	border:  2px solid purple;
+	border:  2px transparent;
 	width:  50%;
+	margin:  0;
+	padding:  0;
 	font-weight: bold;
 	font-size: 24px;
+	margin-top:  2%;
+}
+
+#logo:hover {
+	color:  #3882F6;
+	cursor:  pointer;
 }
 
 #menu-nav-container1, #menu-nav-container2, #menu-nav-container3 {
-	border:  2px solid pink;
+	border:  2px transparent;
 	width: 10%;
 	font-size: 18px;
 	color:  #E5E7EB;
+	margin-top:  2%;
 }
 
-#nav-link1 {
-	float: right;
+#nav-links {
+	cursor:  pointer;
 }
 
-#nav-link2 {
-	text-align:  center;
-}
-
-#nav-link3 {
-	float: left;
+#nav-links:hover {
+	color: #3882F6;
 }
 
 #main-section {
 	margin:  0;
 	padding:  0;
 	border:  2px solid brown;
-	height: 200px;
+	height: 400px;
+	display:  flex;
+	background-color:  #1F2937;
+	transform:  translate(0%, 25%);
+}
+
+#sign-up-btn {
+	background-color:  #3882F6;
+	color: white;
+	width: 20%;
+	margin:  0;
+	padding: 0;
+	border-radius:  5px;
+	font-size:  18px;
+	font-weight:  bold;
+	text-decoration:  none;
+	display:  inline;
+	text-align:  center;
+	cursor:  pointer;
+	border-style: none;
+	transition: background-color 1.5s;
+}
+
+#sign-up-btn:hover {
+	background-color:  #1F2937;
+	border:  2px solid white;
+	color:  white;
+	}
+
+h1 {
+	font-weight:  black;
+	font-size: 48px;
+	color: white;
+}
+
+#hero-secondary {
+	color: #E5E7EB;
+	font-size: 18px;
+	padding-bottom: 2%;
+	font-weight:  300;
+}
+
+#section-1 {
+	width:  50%;
+	border:  2px solid green;
+}
+
+#section-2 {
+	width:  50%;
+	border:  2px solid purple;
+}
+
+#hero-copy {
+	width: 80%;
+	margin:  10% 10% 10% 10%;
+}
+
+#placeholder {
+	width: 80%;
+	height: 50%;
+	display:  flex;
+	background-color: #E5E7EB;
+	color:  dark grey;
+	font-size:  18px;
+	margin:  10% 10% 10% 10%;
+	justify-content:  center;
+	align-items:  center;
 }
 
 #main-section2 {
